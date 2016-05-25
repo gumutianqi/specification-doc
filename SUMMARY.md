@@ -1,6 +1,6 @@
 # Summary
 
 * [前言](README.md)
-* 
-  * [Markdown 规范](规范文档/markdown_guide.md)
-  * [项目编码命名规范](规范文档/项目编码命名规范.md) 
+* [规范文档](specification-doc/README.md)
+  * [Markdown 规范](specification-doc/markdown_guide.md)
+  * [项目编码命名规范](specification-doc/namespace.md)
