@@ -29,7 +29,7 @@
 </table>
 
 ### 另一种
-| **Java** (Linux) | **Js** (linux) | **Hkr** | **Reachauto** |
+| **Java** (Linux) | **Js** (linux) | **MS** | **Reachauto** |
 |-------------|---------------|----|------------|
 | demo | demo2 | demo3 | demo4 |
 | demo | demo2 | demo3 | demo4 |
@@ -50,12 +50,12 @@
 
 ## code
 ```java
-package com.reachauto.hkr.exception;
+package com.xxx.exception;
 
 /**
  * 输入参数异常
  */
-public class InputParameterException extends HkrClientException {
+public class InputParameterException extends MSClientException {
 
     private static final long serialVersionUID = -2030641041470839173L;
     private final static int CODE = 4001;//输入参数异常
