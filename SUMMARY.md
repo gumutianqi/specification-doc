@@ -10,4 +10,6 @@
   * [Spring-Boot工程启动参数](specification-doc/spring-boot-guide.md)
   * [术语表](specification-doc/term-list.md)
 * [工具使用规范](specification-doc/README.md)
-  * []
+  * [关于Authentication与Authorization的理解](tools-doc/about-HttpAuthentication.md)
+  * [Spring项目基础注解](tools-doc/basic-annotation.md)
+  * [spring-boot-swagger2的使用手册](tools-doc/spring-boot-swagger2-guide.md)

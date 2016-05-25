@@ -89,8 +89,6 @@
 > `SwaggerConfig` 配置
 
 ```java
-package com.reachauto.hkr.cxn.swagger.config;
-
 import com.google.common.base.Predicate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -115,9 +113,9 @@ public class SwaggerConfig {
     private String pathMapping;
 
     private ApiInfo initApiInfo() {
-        ApiInfo apiInfo = new ApiInfo("氢氪出行 Platform API",//大标题
+        ApiInfo apiInfo = new ApiInfo("XXX项目 Platform API",//大标题
                 initContextInfo(),//简单的描述
-                "2.0",//版本
+                "1.0.0",//版本
                 "服务条款",
                 "后台开发团队",//作者
                 "The Apache License, Version 2.0",//链接显示文字
@@ -171,7 +169,6 @@ public class SwaggerConfig {
 > `Controller` 的配置
 
 ```java
-package com.reachauto.hkr.cxn.swagger.controller;
 
 import com.reachauto.hkr.cxn.swagger.bean.ChangeRentalShopParameter;
 import io.swagger.annotations.*;
@@ -358,7 +355,6 @@ public class VehiclesController {
 > `Application`  启动模块
 
 ```java
-package com.reachauto.hkr.cxn.swagger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -379,4 +375,4 @@ public class Application {
 [http://localhost:8080/api/v1/swagger-ui.html](http://localhost:8080/api/v1/swagger-ui.html)
 
 ### 3.架构演示
-![tujie](https://code.aliyun.com/rag/imgconfig/raw/master/config/swagger_20160413.png)
+![截图演示](swagger_20160413.png)
